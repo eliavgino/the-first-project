@@ -1,0 +1,31 @@
+
+  
+  .textaboutme {
+    color: rgba(1, 1, 2, 0.907);
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(185, 208, 222, 0.364);
+  }
+  p{
+    text-align: center;
+  }
+  body{
+    background-image: url(aboutme/abotmeimage.jpg);
+  }
+  p{
+    color: rgba(1, 1, 2, 0.907);
+    font-size: 17px;
+   
+    background-color: rgba(185, 208, 222, 0.364);
+  }
+  .meimage
+  {
+    width: 50%;
+    
+  }
+
+
+
+
+  

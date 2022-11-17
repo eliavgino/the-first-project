@@ -1,0 +1,118 @@
+.topimage 
+{
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+
+
+
+
+
+
+  .topnavbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .topnavbar a {/*עיצוב סרגל הכלים העליון מיקומו על הצד השמאלי מיקום הדברים בתוכו */
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbarobject {/*עיצוב הערך עצמו שנמצא*/
+    float: left;
+    overflow: hidden;
+  }
+  
+  .navbarobject .navbarobjectbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .topnavbar a:hover, .navbarobject:hover .navbarobjectbtn {/*הצבע שעוברים מעל האובייקטים*/
+    background-color: rgba(6, 38, 181, 0.192);
+  }
+  
+  .navbarobject-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgba(22, 0, 100, 0.177);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbarobject-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbarobject-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .navbarobject:hover .navbarobject-content {
+    display: block;
+  }
+
+
+
+
+
+  
+.bottomnavbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bottomnavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .bottomnavbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .bottomnavbar a.active {
+    background-color: rgba(6, 38, 181, 0.192);;
+    color: white;
+  }
+  
+  
+
+
+
+
+

@@ -1,0 +1,202 @@
+.items
+{
+display: grid;
+grid-template-columns: 40% 40% ;
+grid-template-rows: 400px 400px 400px;
+gap: 400px 4px; 
+position: relative;
+margin-left:20% ;
+
+}
+.item1{/*עיצוב הדיב עצמו עם הצצלה מיקום כתב וגודל*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);/*עיצוב ההצללה מאחורה*/
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:1 ;
+  grid-row-end: 2;
+  position: relative; 
+}  
+.item2{/*עיצוב הדיב עצמו עם הצצלה מיקום כתב וגודל*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);/*עיצוב ההצללה מאחורה*/
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 2; 
+    position: relative; 
+  }  .item3{/*עיצוב הדיב עצמו עם הצצלה מיקום כתב וגודל*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);/*עיצוב ההצללה מאחורה*/
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end: 3; 
+    position: relative; 
+  }  .item4{/*עיצוב הדיב עצמו עם הצצלה מיקום כתב וגודל*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);/*עיצוב ההצללה מאחורה*/
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    position: relative;  
+  }  .item5{/*עיצוב הדיב עצמו עם הצצלה מיקום כתב וגודל*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);/*עיצוב ההצללה מאחורה*/
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3 ;
+    grid-row-end: 4; 
+    position: relative; 
+  }  .item6{/*עיצוב הדיב עצמו עם הצצלה מיקום כתב וגודל*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);/*עיצוב ההצללה מאחורה*/
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end: 4; 
+    position: relative; 
+  }  
+
+
+
+
+
+.itemprice
+ { /*עיצוב תווית המחיר*/
+    color: grey;
+    font-size: 22px;
+  }
+
+
+
+
+
+
+
+.item1 button {/*עיצוב הכפתור הוסף לעגלת הקניות*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(40, 36, 36, 0.877);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .item2 button {/*עיצוב הכפתור הוסף לעגלת הקניות*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(40, 36, 36, 0.877);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .item3 button {/*עיצוב הכפתור הוסף לעגלת הקניות*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(40, 36, 36, 0.877);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .item4 button {/*עיצוב הכפתור הוסף לעגלת הקניות*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(40, 36, 36, 0.877);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .item5 button {/*עיצוב הכפתור הוסף לעגלת הקניות*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(40, 36, 36, 0.877);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .item6 button {/*עיצוב הכפתור הוסף לעגלת הקניות*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(40, 36, 36, 0.877);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  
+
+
+.item1 button:hover {/*  כשמרחפים מעל עיצוב כפתור ההוספה לעגלה*/
+    opacity: 0.7;
+  }
+.item2 button:hover {/*  כשמרחפים מעל עיצוב כפתור ההוספה לעגלה*/
+    opacity: 0.7;
+  }
+.item3 button:hover {/*  כשמרחפים מעל עיצוב כפתור ההוספה לעגלה*/
+    opacity: 0.7;
+  }
+.item4 button:hover {/*  כשמרחפים מעל עיצוב כפתור ההוספה לעגלה*/
+    opacity: 0.7;
+  }
+.item5 button:hover {/*  כשמרחפים מעל עיצוב כפתור ההוספה לעגלה*/
+    opacity: 0.7;
+  }
+.item6 button:hover {/*  כשמרחפים מעל עיצוב כפתור ההוספה לעגלה*/
+    opacity: 0.7;
+  }
+
+
+
+
+.itemdiv-image
+{
+    /*image item desin */
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+ }
+
+.itemdiv-image:hover .itemimage/*כיסוי הדיב של התמונה*/
+{
+    opacity: 0.3;   
+}

@@ -1,0 +1,65 @@
+.itemtype
+{
+    display: grid;
+    grid-template-columns: 16%16%16%16%16%16%16% ;
+    grid-template-rows: 400px 400px 400px;
+    gap: 250px 4px; 
+    position: relative;
+    margin-left:10% ;
+    margin-left: 10%;
+}
+.itemtype1 {
+    position: relative;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    grid-column-start: 1;
+    grid-column-end:7 ; 
+  }
+.itemtype2 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start:2 ;
+    grid-row-end: 3; 
+  }
+.itemtype3 {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end:7 ;
+    grid-row-start:2 ;
+    grid-row-end: 3; 
+  }
+.itemtype4 {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start:3 ;
+    grid-row-end: 4; 
+  }
+.itemtype5 {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end:5 ;
+    grid-row-start:3 ;
+    grid-row-end: 4; 
+  }
+.itemtype6 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end:7 ;
+    grid-row-start:2 ;
+    grid-row-end: 3; 
+  }
+  /*ממקם את הטקס 20-20 מהתחתית השמאלית */
+  .itemtypetext {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.405);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
